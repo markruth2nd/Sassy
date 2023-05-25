@@ -1,0 +1,9 @@
+
+@import 'variables';
+@import 'header';
+
+.contact {
+    @include flexCentre(row, lightgreen);
+    color: $textColor;
+    height: 100vh;
+}

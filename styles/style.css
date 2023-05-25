@@ -1,0 +1,27 @@
+/* Below are the variables which can be used throughout the CSS styling thanks to using SASS/SCSS */
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  background: purple;
+  color: rgb(169, 132, 132);
+}
+header button {
+  background: rgb(125, 102, 236);
+}
+header button:hover {
+  background: #5639e6;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: row;
+  background: lightgreen;
+  color: rgb(169, 132, 132);
+  height: 100vh;
+}/*# sourceMappingURL=style.css.map */
